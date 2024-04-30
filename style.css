@@ -1,0 +1,58 @@
+
+body{
+    background-image: url(dice.png);
+}
+
+
+
+
+h1{
+    text-align: center;
+    color: yellow;
+    font-size: 70px;
+
+   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    width: 300px;
+    height: 80px;
+    font-size: 30px;
+    color: darkblue;
+    gap: 5px;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: black;
+    color: yellow;
+  }
+
+  .info_box {
+     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    margin-top: 20px;
+    padding: 10px;
+    color: darkblue;
+    cursor: pointer;
+  }
+
+  .info_box:hover{
+    background-color: black;
+    color: yellow;
+  }
